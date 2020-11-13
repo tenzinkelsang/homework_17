@@ -1,0 +1,222 @@
+body {
+    margin: 0;}
+
+.preload {
+    font-family: Montserrat, sans-serif;
+}
+
+
+#logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    color: #ffffff !important;   
+}
+
+/*Background Colors*/
+#background {
+    width: auto;
+    height: 90vh;
+}
+
+.uno {
+    position: absolute;
+    margin: 0;
+    height: 80%;
+    width: 95%;
+    background: #BC5D51;
+    z-index: 1;
+}
+
+.home {
+    position: absolute;
+    background-color: #E8DFE0;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    height: 65%;
+    overflow: hidden;
+    padding: 5%;
+    z-index: 2;
+}
+
+
+.home img {
+    height: 400px;
+    width: 380px;
+    border-radius: 50%;
+    float: right;
+}
+
+/*Background Colors End*/
+
+
+/*Projects*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    position: relative;
+    margin: 100px;
+
+}
+.test_content {
+    align-self: center;
+    justify-self: center;
+    padding: 15px;
+}
+
+.content2 {
+    margin: 10px;
+    padding: 50px 150px 50px 150px;
+    justify-self: center;
+}
+
+.testimage {
+    height: 500px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+/*Nearby*/
+.one {
+    background-color: #EBC8CB;
+}
+
+
+/*Kiva*/
+.two {
+    background-color: #719D9A;
+}
+
+/*FTC*/
+.three {
+    background-color: #CF5D2D;
+}
+
+.getintouch{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.getintouch button {
+    background-color: #F3D250;  
+}
+
+/*Footer*/
+#footer {
+    padding: 5px;
+    background:#E8DFE0;
+    text-align: right;
+}
+
+.footer1 li {
+    padding-right: 15px;
+}
+
+.menu-link {
+    color: black;
+}
+
+/*Get In Touch*/
+#mailimage {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.menu-link a {
+    color: black;
+}
+
+/*Banner*/
+
+.banner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #18343C;
+    text-align: center;
+    color: white;
+}
+
+/*NavBar*/
+#navigationbar {
+    z-index: 3;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #18343C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
